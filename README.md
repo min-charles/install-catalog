@@ -57,7 +57,7 @@
 ## Step 1. 설치에 필요한 crd 생성
 - 목적 : `CatalogController crd 생성`
 - 생성 순서 : 아래 command로 yaml 적용
-    - kubectl apply -f crds/ ([폴더](./manifest/crds)) 
+    - kubectl apply -f crds/ ([폴더](./manifest/crds/key-mapping)) 
 
 ## Step 2. catalog controller namespace 및 servcice account 생성
 - 목적 : `catalog controller namespace 및 servcice account 생성`
@@ -127,4 +127,4 @@
 ## Step 3. CRD 제거
 - 목적 : `CRD 제거`
 - 삭제 순서 : 아래 command로 yaml 적용
-    - kubectl delete -f crds/ ([폴더](./manifest/crds)) 
+    - kubectl delete -f crds/ ([폴더](./manifest/crds/key-mapping)) 
